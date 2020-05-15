@@ -18,7 +18,6 @@ public class Position {
         return "Position{" +
                 "x=" + x +
                 ", y=" + y +
-                ", position=" + position +
                 '}';
     }
 

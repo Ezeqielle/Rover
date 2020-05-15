@@ -18,4 +18,12 @@ public class Rover {
     public void Move(){
         position.Move(direction.GetDirection());
     }
+
+    @Override
+    public String toString() {
+        return "Rover{" +
+                "direction=" + direction +
+                ", position=" + position +
+                '}';
+    }
 }
